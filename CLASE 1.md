@@ -73,8 +73,19 @@ $$ \ K_2 \cdot (y_1(t) - y_2(t)) - K_3 \cdot y(t) + b \cdot (\dot{y}_1(t) - \dot
 
 💡**Ejemplo 5:** Solucion propuesta para un sistema masa resorte amortigua 
 
-<img src="images/EJ5.jpg"  width="400"/>
+<img src="images/EJ5.jpg"  width="170"/>
+ 
+ - Ecuación para la masa 1
 
+$$\ F_{R2} + F_W - F_B - F_{R1} = m_1 \cdot a_1\$$
+
+$$\ K_2 \cdot (y_1 - y_2) + F_W - b \cdot \dot{y} - K_1 \cdot y = m \cdot \ddot{y}(t)\$$
+
+ - Ecuación para la masa 2
+
+$$\ u + F_W - F_{R2} = m_2 \cdot a_2 \$$
+
+$$\ u + F_W - K_2 \cdot (y_2 - y_1) = m_2 \cdot \ddot{y}(t) \$$
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
