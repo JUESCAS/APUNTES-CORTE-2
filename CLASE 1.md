@@ -25,16 +25,20 @@ $$ \ F_R = K_2 \cdot y(t)\ $$
 $$ \ u - F_R - F_F = m \cdot a\ $$
 $$ \ u(t) - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\ $$
 
-
-
-### 3.2 Amortiguador
+## 4 Sistema masa amortiguador
+En este sistema, la masa (m) está unida a un resorte con constante elástica  k y a un amortiguador (que puede ser representado como un pistón o un fluido viscoso). La fuerza de amortiguamiento se representa comúnmente como una fuerza proporcional a la velocidad del objeto, es decir, una fuerza de fricción viscosa.
+### 4.1 Amortiguador 
 >🔑Un amortiguador es un dispositivo mecánico utilizado para reducir o controlar las oscilaciones y absorber impactos o vibraciones en sistemas dinámicos. Su función principal es disipar la energía de los movimientos oscilatorios o de choque, convirtiéndola generalmente en calor, lo que ayuda a estabilizar y suavizar el movimiento de un objeto o estructura Generación de fricción: En un amortiguador por fricción, dos partes del sistema (como discos, zapatas o bloques) se mueven en contacto unas con otras. Cuando el sistema se mueve, la fricción entre estas superficies resiste el movimiento.
 Conversión de energía: A medida que las superficies friccionan entre sí, la energía cinética del movimiento se convierte en calor, lo que reduce la velocidad del objeto en movimiento.
 Desaceleración: El calor generado por la fricción disipa la energía de manera controlada, evitando oscilaciones excesivas o movimientos bruscos. La velocidad del sistema disminuye de forma progresiva hasta que se detiene o alcanza una velocidad constante deseada.
-### 3.3 Sistemas masa resorte
-Un sistema masa-resorte consiste en una masa (m) unida a un resorte con constante elástica (k) y que está sujeto a fuerzas externas, como la fuerza de restitución del resorte, que sigue la Ley de Hooke.
-### 3.4 Sistemas masa Amortiguador
-En este sistema, la masa (m) está unida a un resorte con constante elástica  k y a un amortiguador (que puede ser representado como un pistón o un fluido viscoso). La fuerza de amortiguamiento se representa comúnmente como una fuerza proporcional a la velocidad del objeto, es decir, una fuerza de fricción viscosa.
+### 4.1.1 Fricción viscosa
+Es una fuerza resistiva que depende de la velocidad relativa entre las superficies en contacto. En el contexto de un sistema de amortiguación, como un amortiguador de vehículo, la fricción viscosa se modela generalmente como una fuerza proporcional a la velocidad del objeto en movimiento.
+
+💡**Ejemplo 1:** sistema masa amortiguador 
+
+<img src="images/EJ1.jpg"  width="300"/>
+
+
 ## 📚Ejercicios
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
