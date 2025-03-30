@@ -16,8 +16,17 @@ Un sistema masa-resorte es un modelo físico que describe el comportamiento de u
 >🔑Un resorte es un componente que almacena energía potencial cuando se deforma, es decir, cuando se estira o se comprime. Es un sistema mecánico que puede oscilar o moverse bajo la influencia de fuerzas, como la fuerza de restitución que genera el propio resorte debido a su deformación.
 ### 3.1.1 Ley de Hooke
 La Ley de Hooke aplicada a los resortes describe cómo la fuerza que ejerce un resorte es proporcional a la deformación que sufre (ya sea por estiramiento o compresión). Es una relación fundamental que se utiliza para modelar el comportamiento de los resortes en sistemas dinámicos.
-💡**Ejemplo 1:** 
-<img src="images/B.jpg"  width="300"/>
+
+💡**Ejemplo 1:** sistema masa resorte
+
+<img src="images/EJ1.jpg"  width="300"/>
+
+$$ \ F_R = K_2 \cdot y(t)\ $$
+$$ \ u - F_R - F_F = m \cdot a\ $$
+$$ \ u(t) - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\ $$
+
+
+
 ### 3.2 Amortiguador
 >🔑Un amortiguador es un dispositivo mecánico utilizado para reducir o controlar las oscilaciones y absorber impactos o vibraciones en sistemas dinámicos. Su función principal es disipar la energía de los movimientos oscilatorios o de choque, convirtiéndola generalmente en calor, lo que ayuda a estabilizar y suavizar el movimiento de un objeto o estructura Generación de fricción: En un amortiguador por fricción, dos partes del sistema (como discos, zapatas o bloques) se mueven en contacto unas con otras. Cuando el sistema se mueve, la fricción entre estas superficies resiste el movimiento.
 Conversión de energía: A medida que las superficies friccionan entre sí, la energía cinética del movimiento se convierte en calor, lo que reduce la velocidad del objeto en movimiento.
