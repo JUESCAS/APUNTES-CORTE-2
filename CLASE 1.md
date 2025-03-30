@@ -51,7 +51,7 @@ Un sistema masa-resorte-amortiguador es un sistema físico comúnmente utilizado
 
 💡**Ejemplo 3:** Solucion propuesta para un sistema masa resorte amortigua 
 
-<img src="images/EJ4.jpg"  width="200"/>
+<img src="images/EJ4.jpg"  width="400"/>
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
