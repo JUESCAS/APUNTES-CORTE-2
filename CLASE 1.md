@@ -34,10 +34,13 @@ Desaceleración: El calor generado por la fricción disipa la energía de manera
 ### 4.1.1 Fricción viscosa
 Es una fuerza resistiva que depende de la velocidad relativa entre las superficies en contacto. En el contexto de un sistema de amortiguación, como un amortiguador de vehículo, la fricción viscosa se modela generalmente como una fuerza proporcional a la velocidad del objeto en movimiento.
 
-💡**Ejemplo 1:** sistema masa amortiguador 
+💡**Ejemplo 2:** sistema masa amortiguador 
 
-<img src="images/EJ1.jpg"  width="300"/>
+<img src="images/EJ2.jpg"  width="300"/>
 
+$$ \ F_R = K_2 \cdot y(t)\ $$
+$$ \ u - F_R - F_F = m \cdot a\ $$
+$$ \ u(t) - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\ $$
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
