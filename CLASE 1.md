@@ -49,9 +49,32 @@ Un sistema masa-resorte-amortiguador es un sistema físico comúnmente utilizado
 
 <img src="images/EJ3.jpg"  width="200"/>
 
-💡**Ejemplo 3:** Solucion propuesta para un sistema masa resorte amortigua 
+$$ \sum F = m \cdot a\$$
+$$ \ u + F_W - F_R - F_F = m \cdot a\$$
+$$ \ u(t) + F_W - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\$$
+
+💡**Ejemplo 4:** Planteamiento de ecuaciones para un sistema con dos masas resorte amortiguador 
 
 <img src="images/EJ4.jpg"  width="400"/>
+
+ - Ecuación para la masa 1
+
+$$ \ u - F_{R1} - F_{R2} - F_F = m \cdot a\$$
+
+$$ \ u(t) - K_1 \cdot y(t) - K_2 \cdot (y_1(t) - y_2(t)) - b \cdot (\dot{y}_1(t) - \dot{y}_2(t)) = m \cdot \ddot{y}(t)\$$
+
+ - Ecuación para la masa 2
+
+$$ \ F_{R2} - F_{R3} + F_F = m \cdot a \$$
+$$ \ K_2 \cdot (y_1(t) - y_2(t)) - K_3 \cdot y(t) + b \cdot (\dot{y}_1(t) - \dot{y}_2(t)) = m \cdot \ddot{y}(t) \$$
+
+- Modelo
+<img src="images/MOD.jpg"  width="400"/>
+
+💡**Ejemplo 5:** Solucion propuesta para un sistema masa resorte amortigua 
+
+<img src="images/EJ4.jpg"  width="400"/>
+
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
