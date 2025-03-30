@@ -69,11 +69,11 @@ $$ \ F_{R2} - F_{R3} + F_F = m \cdot a \$$
 $$ \ K_2 \cdot (y_1(t) - y_2(t)) - K_3 \cdot y(t) + b \cdot (\dot{y}_1(t) - \dot{y}_2(t)) = m \cdot \ddot{y}(t) \$$
 
 - Modelo
-<img src="images/MOD.jpg"  width="400"/>
+<img src="images/mod.jpg"  width="400"/>
 
 💡**Ejemplo 5:** Solucion propuesta para un sistema masa resorte amortigua 
 
-<img src="images/EJ4.jpg"  width="400"/>
+<img src="images/EJ5.jpg"  width="400"/>
 
 
 ## 📚Ejercicios
