@@ -38,9 +38,20 @@ Es una fuerza resistiva que depende de la velocidad relativa entre las superfici
 
 <img src="images/EJ2.jpg"  width="300"/>
 
-$$ \ F_R = K_2 \cdot y(t)\ $$
-$$ \ u - F_R - F_F = m \cdot a\ $$
-$$ \ u(t) - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\ $$
+$$\ F_F = b \cdot \dot{y}(t)\ $$
+$$\ u - F_R - F_F = m \cdot a\ $$
+$$\ u(t) - k \cdot y(t) - b \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\ $$
+
+## 4 Sistema masa resorte amortiguador
+Un sistema masa-resorte-amortiguador es un sistema físico comúnmente utilizado para modelar oscilaciones amortiguadas. Este sistema consta de una masa m, un resorte con constante elástica 𝑘, y un amortiguador con coeficiente de fricción 𝑏.
+
+💡**Ejemplo 3:** Planteamiento de ecuaciones para un sistema masa resorte amortigua 
+
+<img src="images/EJ2.jpg"  width="300"/>
+
+💡**Ejemplo 3:** Solucion propuesta para un sistema masa resorte amortigua 
+
+<img src="images/EJ2.jpg"  width="300"/>
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
