@@ -9,3 +9,10 @@ En un sistema rotacional (como engranajes, discos, motores...), la fricción no 
 El torque (también llamado momento de fuerza) es la fuerza que causa rotación. Es el equivalente rotacional de la fuerza lineal.
 
 💡**Ejemplo 1:** sistema rotacionales 
+
+<img src="images/EJ11.jpg"  width="300"/>
+
+
+💡**Ejemplo 2:** sistema rotacionales 
+
+<img src="images/EJ12.jpg"  width="300"/>
