@@ -7,3 +7,5 @@ En sistemas rotacionales, la fricción se manifiesta como una resistencia al gir
 En un sistema rotacional (como engranajes, discos, motores...), la fricción no es una fuerza lineal, sino un torque (momento de fuerza) que resiste el giro. 
 ### Torque 
 El torque (también llamado momento de fuerza) es la fuerza que causa rotación. Es el equivalente rotacional de la fuerza lineal.
+
+💡**Ejemplo 1:** sistema rotacionales 
