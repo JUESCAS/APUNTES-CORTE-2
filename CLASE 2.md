@@ -93,3 +93,12 @@ Un tren de engranajes es un conjunto de ruedas dentadas (engranajes) que transmi
 Una palanca es un elemento mecánico rígido que gira alrededor de un punto de apoyo fijo (fulcro) y se utiliza para transmitir fuerza y movimiento entre dos puntos. Funciona como un sistema mecánico rotacional simple que convierte un torque de entrada en un torque de salida, generalmente modificando la magnitud de la fuerza o la distancia angular a través de una relación de transmisión basada en las longitudes de sus brazos.
 ### 4.3 Bandas
 un sistema de bandas o correas es un mecanismo utilizado para transmitir movimiento y potencia rotacional entre dos o más ejes mediante una banda flexible (generalmente de goma, cuero o material sintético) que envuelve poleas. Estos sistemas permiten modificar la velocidad angular y el torque, y son fundamentales en la conexión entre componentes rotacionales cuando no se desea contacto directo como en engranajes.
+
+💡**Ejemplo 3:** sistema rotacionales 
+
+<img src="images/EJ25.jpg"  width="300"/>
+
+
+💡**Ejemplo 4:** sistema rotacionales 
+
+<img src="images/EJ26.jpg"  width="300"/>
