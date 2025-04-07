@@ -79,7 +79,7 @@ un sistema conservativo es aquel en el que la energía mecánica total se conser
 
 💡**Ejemplo 4:** sistema rotacionales 
 
-<img src="images/EJ23.jpg"  width="300"/>
+<img src="images/EJ23.jpg"  width="280"/>
 
 
 💡**Ejemplo 5:** sistema rotacionales 
