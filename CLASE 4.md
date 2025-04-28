@@ -1,1 +1,1 @@
-# Modelación de sistemas hidráulicos 
+# Modelación de sistemas eléctricos e hidráulicos 
