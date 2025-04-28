@@ -16,9 +16,9 @@ $$\ R = \frac{v(t)}{i(t)} \ $$
 #### 1.1.2 Capacitor
 Un capacitor (o condensador) es un dispositivo eléctrico pasivo que almacena energía en forma de campo eléctrico entre dos placas conductoras separadas por un material dieléctrico. Su función principal es acumular y liberar carga eléctrica cuando es necesario. La relación entre la carga almacenada y el voltaje  en sus terminales está dada por , donde  la capacitancia, una constante que depende de las características físicas del capacitor y se mide en faradios (F). En circuitos eléctricos, los capacitores son usados para filtrar señales, suavizar voltajes y almacenar energía temporalmente.En dinámica de sistemas, un capacitor se modela como un elemento que integra el flujo de corriente para producir un voltaje. Su comportamiento dinámico está descrito la siguiente ecuación diferencial.
 
-<img src="images/F3.jpg"  width="300"/>
-
 $$\ i(t) = C \frac{dv(t)}{dt}\ $$
+
+<img src="images/F3.jpg"  width="300"/>
 
 #### 1.1.3 Inductor 
 Un inductor es un componente eléctrico pasivo que almacena energía en un campo magnético cuando pasa corriente a través de él. Está formado típicamente por un alambre enrollado en espiral, y su principal propiedad es la inductancia, que se mide en henrios (H). La inductancia es la capacidad de un inductor para resistir cambios en la corriente eléctrica que lo atraviesa.En la dinámica de sistemas, un inductor puede representarse como un componente dentro de un sistema dinámico donde su comportamiento está gobernado por ecuaciones diferenciales. La dinámica de un sistema que involucra un inductor está relacionada con el almacenamiento de energía en un campo magnético y cómo la corriente cambia con el tiempo que se expresa de la siguiente manera.
@@ -37,7 +37,9 @@ Una maya es un lazo cerrado dentro del circuito, que no contiene otras mallas de
 ### 2.2 Ley de tensiones de Kirchhoff  
 La Ley de Kirchhoff de tensiones es una de las leyes fundamentales en la teoría de circuitos eléctricos. Esta ley establece que la suma algebraica de todas las tensiones en un lazo cerrado ( malla) de un circuito es igual a cero. Es decir, la energía que se gana, a través de fuentes de voltaje debe ser igual a la energía que se pierde en resistores, inductores, capacitores, etc. la cantidad de mallas será equivalente a la cantidad de ecuaciones.
 
+
 <img src="images/F6.jpg"  width="300"/>
+
 
 💡**Ejemplo 1:** sistema masa amortiguador
 
@@ -70,14 +72,24 @@ En el contexto de los circuitos eléctricos, un nodo es un punto de conexión en
 ### 3.2 Ley de corrientes de Kirchhoff 
 La Ley de Kirchhoff de Corrientes establece que la suma algebraica de las corrientes que entran a un nodo es igual a la suma algebraica de las corrientes que salen de ese nodo. En otras palabras, la corriente total que fluye hacia un nodo debe ser igual a la corriente total que fluye fuera de él.
 
-$$\ sum I_{\text{entrantes}} = \sum I_{\text{saliente}$$
-$$\ sum I = 0$$
 
-<img src="images/F10.jpg"  width="300"/>
+
+
+$$\sum I_{\text{entrantes}} = \sum I_{\text{saliente}}$$
+
+$$\sum I = 0\ $$
+
+
+
+
+
+<img src="images/F10.jpg"  width="250"/>
+
 
 💡**Ejemplo 3:** sistema masa amortiguador
 
-<img src="images/F11.jpg"  width="300"/>
+
+<img src="images/F11.jpg"  width="280"/>
 
 $$\ i_u - i_1 - i_c = 0\$$
 $$\ i_u(t) - \frac{V_{AB}}{0.5} - 2\frac{dy(t)}{dt} = 0\$$
