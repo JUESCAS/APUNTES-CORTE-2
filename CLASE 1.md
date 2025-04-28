@@ -93,6 +93,16 @@ $$\ u + F_W - K_2 \cdot (y_2 - y_1) = m_2 \cdot \ddot{y}(t) \$$
 
 <img src="images/EJJ.jpg"  width="120"/>
 
+
+$$ F_B - F_{k1} + F_w = m_1 a_1 $$
+$$ b(\dot{y}_1 - \dot{y}_2) - K_1 y_1 + F_w = m_1 \ddot{y}_1 $$
+
+$$ u - F_B + F_w - F_{R2} = m_2 a_2 $$
+$$ u + b(\dot{y}_2 - \dot{y}_1) + F_w - K_2(y_2 - y_1) = m_2 \ddot{y}_2$$
+
+<img src="images/EJJ2.jpg"  width="120"/>
+
+
 ### 📚Ejercicio 2
 ## 8. Conclusiones
 ## 9. Bibliografia 
