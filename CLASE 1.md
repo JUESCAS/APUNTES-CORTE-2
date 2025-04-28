@@ -104,11 +104,14 @@ $$ u + b(\dot{y}_2 - \dot{y}_1) + F_w - K_2(y_2 - y_1) = m_2 \ddot{y}_2$$
 
 ### 📚Ejercicio 2
 
-<img src="images/EJJ3.jpg"  width="360"/>
+<img src="images/EJJ3.jpg"  width="120"/>
 
 ## 8. Conclusiones
+
+Modelar sistemas masa-resorte-amortiguador permite describe el comportamiento de masas de acuerdo. Además tener un modelo en función de una salida permitirá analizar y graficar el cambio de posición de cada masa según se varía el valor de entrada. Los modelos dinámicos son fundamental para analizar vibraciones mecánicas, diseñar sistemas de control, estudiar estabilidad y entender la transmisión de fuerzas en los sistemas mecánicas.
+
 ## 9. Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
 
-[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_ambientales.html)
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
