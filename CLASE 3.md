@@ -1,4 +1,5 @@
 # Modelación de sistemas eléctricos 
+En dinamica de sistemas,  los sistemas eléctricos son un modelo que describe cómo evolucionan variables eléctricas, como la corriente y el voltaje, en a medida que el tiempo  aumenta, estas variaaciones son genera debido a la interacción de estas variables con  componentes como resistencias, inductancias y capacitancias, que almacenan energia. Estos sistemas se representan mediante ecuaciones diferenciales que reflejan el analisis por las leyes de Kirchhoff y las relaciones de modelos predeterminados de los elementos eléctricos. 
 ## 1 Circuito eléctrico 
 Un circuito eléctrico es una interconexión de elementos eléctricos como resistencias, capacitores, inductores, fuentes de voltaje y corriente, que permite el flujo controlado de corriente eléctrica a través de un camino cerrado. En un circuito, las cargas eléctricas se desplazan impulsadas por una diferencia de potencial, realizando trabajo en los distintos componentes del sistema.
 ### 1.1 Circuito RLC
@@ -107,6 +108,7 @@ $$\ u(t) - 6\frac{dy(t)}{dt} - 2y(t) = 0\$$
 ### 📚Ejercicio 1
 ### 📚Ejercicio 2
 ## 5 Conclusiones 
+Al analizar el comportamiento dinámico de los sistemas electricos, es posible estudiar fenómenos como respuestas transitorias, estados estacionarios, resonancia y estabilidad,ademas en muchos casos sera posible predecir algunos fallos en el sistema electrico, hecho que es importante a la diseñar y controlar de manera más eficiente.
 ## 6 Bibliografía 
  
 
