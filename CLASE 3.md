@@ -11,7 +11,7 @@ La resistencia eléctrica es la magnitud física que cuantifica la oposición qu
 
 $$\ R = \frac{v(t)}{i(t)} \ $$
 
-<img src="images/F2.jpg"  width="300"/>
+<img src="images/F2.jpg"  width="200"/>
 
 #### 1.1.2 Capacitor
 Un capacitor (o condensador) es un dispositivo eléctrico pasivo que almacena energía en forma de campo eléctrico entre dos placas conductoras separadas por un material dieléctrico. Su función principal es acumular y liberar carga eléctrica cuando es necesario. La relación entre la carga almacenada y el voltaje  en sus terminales está dada por , donde  la capacitancia, una constante que depende de las características físicas del capacitor y se mide en faradios (F). En circuitos eléctricos, los capacitores son usados para filtrar señales, suavizar voltajes y almacenar energía temporalmente.En dinámica de sistemas, un capacitor se modela como un elemento que integra el flujo de corriente para producir un voltaje. Su comportamiento dinámico está descrito la siguiente ecuación diferencial.
@@ -23,7 +23,7 @@ $$\ i(t) = C \frac{dv(t)}{dt}\ $$
 #### 1.1.3 Inductor 
 Un inductor es un componente eléctrico pasivo que almacena energía en un campo magnético cuando pasa corriente a través de él. Está formado típicamente por un alambre enrollado en espiral, y su principal propiedad es la inductancia, que se mide en henrios (H). La inductancia es la capacidad de un inductor para resistir cambios en la corriente eléctrica que lo atraviesa.En la dinámica de sistemas, un inductor puede representarse como un componente dentro de un sistema dinámico donde su comportamiento está gobernado por ecuaciones diferenciales. La dinámica de un sistema que involucra un inductor está relacionada con el almacenamiento de energía en un campo magnético y cómo la corriente cambia con el tiempo que se expresa de la siguiente manera.
 
-<img src="images/F4.jpg"  width="300"/>
+<img src="images/F4.jpg"  width="150"/>
 
 $$\ v(t) = L \frac{di(t)}{dt}\ $$
 
