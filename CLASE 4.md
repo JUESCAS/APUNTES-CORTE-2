@@ -19,6 +19,7 @@ Un amplificador operacional no inversor es una configuración de un amplificador
 ## Analisis de sistemas hidráulicos
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
 
-### Volumen
-### Presión 
+### Modelo de un tanque 
+### Modelo de dos tanques
+### Modelos de dos tanques interconectados 
 ### Caudal volumétrico 
