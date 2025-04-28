@@ -8,6 +8,8 @@
 ### 3.1 Nodo
 ### 3.2 Ley de corrientes de Kirchhoff 
 ## 4 Ejercicios 
+### 📚Ejercicio 1
+### 📚Ejercicio 2
 ## 5 Conclusiones 
 ## 6 Bibliografía 
  
