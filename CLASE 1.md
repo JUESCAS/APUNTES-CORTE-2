@@ -100,10 +100,12 @@ $$ b(\dot{y}_1 - \dot{y}_2) - K_1 y_1 + F_w = m_1 \ddot{y}_1 $$
 $$ u - F_B + F_w - F_{R2} = m_2 a_2 $$
 $$ u + b(\dot{y}_2 - \dot{y}_1) + F_w - K_2(y_2 - y_1) = m_2 \ddot{y}_2$$
 
-<img src="images/EJJ2.jpg"  width="300"/>
-
+<img src="images/EJJ2.jpg"  width="360"/>
 
 ### 📚Ejercicio 2
+
+<img src="images/EJJ3.jpg"  width="360"/>
+
 ## 8. Conclusiones
 ## 9. Bibliografia 
 
