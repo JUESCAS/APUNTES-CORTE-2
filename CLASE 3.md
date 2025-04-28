@@ -37,9 +37,11 @@ Una maya es un lazo cerrado dentro del circuito, que no contiene otras mallas de
 ### 2.2 Ley de tensiones de Kirchhoff  
 La Ley de Kirchhoff de tensiones es una de las leyes fundamentales en la teoría de circuitos eléctricos. Esta ley establece que la suma algebraica de todas las tensiones en un lazo cerrado ( malla) de un circuito es igual a cero. Es decir, la energía que se gana, a través de fuentes de voltaje debe ser igual a la energía que se pierde en resistores, inductores, capacitores, etc. la cantidad de mallas será equivalente a la cantidad de ecuaciones.
 
-<img src="images/F1.jpg"  width="300"/>
+<img src="images/F6.jpg"  width="300"/>
 
-<img src="images/F1.jpg"  width="300"/>
+💡**Ejemplo 1:** sistema masa amortiguador
+
+<img src="images/F7.jpg"  width="300"/>
 
 $$ \ -u + v_R + v_L + v_C = 0\ $$
 $$ \ -u(t) + i(t) \ast R + L \frac{di(t)}{dt} + y(t) = 0\] $$
@@ -47,7 +49,9 @@ $$ \ i(t) = C \frac{dy(t)}{dt}\] $$
 $$ \ -u(t) + C \frac{dy(t)}{dt} \ast R + L \frac{d}{dt} \left( C \frac{dy(t)}{dt} \right) + y(t) = 0\] $$
 $$ \ -u(t) + RC \frac{dy(t)}{dt} + LC \frac{d^2 y(t)}{dt^2} + y(t) = 0\] $$
 
-<img src="images/F1.jpg"  width="300"/>
+💡**Ejemplo 2:** sistema masa amortiguador
+
+<img src="images/F8.jpg"  width="300"/>
 
 $$\ -u + V_{R1} + V_{R2} + V_{C} = 0\$$
 $$\ -u + I(R_1 + R_2) + V_{C} = 0\$$
@@ -56,15 +60,24 @@ $$\ -u + C \frac{d(V_C)}{dt} (R_1 + R_2) + V_C = 0\$$
 
 
 ## 3 Analisis por nodos
-### 3.1 Nodo
+El análisis por nodos es un método utilizado para resolver circuitos eléctricos que se basa en la Ley de Kirchhoff de Corrientes (KCL). Este enfoque es particularmente útil cuando el circuito tiene múltiples componentes conectados en paralelo y es más sencillo trabajar con los voltajes en los nodos en lugar de las corrientes en las mallas. El análisis por nodos permite calcular los voltajes en diferentes puntos del circuito con respecto a un nodo de referencia.
 
-<img src="images/F1.jpg"  width="300"/>
+### 3.1 Nodo
+En el contexto de los circuitos eléctricos, un nodo es un punto de conexión en un circuito donde se encuentran dos o más componentes, como resistores, fuentes de voltaje, capacitores o inductores. En un nodo, todos los elementos conectados comparten el mismo voltaje con respecto a un nodo de referencia, comúnmente denominado tierra.
+
+<img src="images/F9.jpg"  width="300"/>
 
 ### 3.2 Ley de corrientes de Kirchhoff 
+La Ley de Kirchhoff de Corrientes establece que la suma algebraica de las corrientes que entran a un nodo es igual a la suma algebraica de las corrientes que salen de ese nodo. En otras palabras, la corriente total que fluye hacia un nodo debe ser igual a la corriente total que fluye fuera de él.
 
-<img src="images/F1.jpg"  width="300"/>
+$$\ sum I_{\text{entrantes}} = \sum I_{\text{saliente}$$
+$$\ sum I = 0$$
 
-<img src="images/F1.jpg"  width="300"/>
+<img src="images/F10.jpg"  width="300"/>
+
+💡**Ejemplo 3:** sistema masa amortiguador
+
+<img src="images/F11.jpg"  width="300"/>
 
 $$\ i_u - i_1 - i_c = 0\$$
 $$\ i_u(t) - \frac{V_{AB}}{0.5} - 2\frac{dy(t)}{dt} = 0\$$
@@ -73,8 +86,9 @@ $$\ V_{AB} = 2\frac{dy(t)}{dt} + y(t)\$$
 $$\ u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2\frac{dy(t)}{dt} =0\$$
 $$\ u(t) - 6\frac{dy(t)}{dt} - 2y(t) = 0\$$
 
+💡**Ejemplo 4:** sistema masa amortiguador
 
-<img src="images/F1.jpg"  width="300"/>
+<img src="images/F12.jpg"  width="300"/>
 
 
 ## 4 Ejercicios 
