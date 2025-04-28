@@ -90,6 +90,9 @@ $$\ u + F_W - K_2 \cdot (y_2 - y_1) = m_2 \cdot \ddot{y}(t) \$$
 
 ## 7. Ejercicios
 ### 📚Ejercicio 1
+
+<img src="images/EJJ.jpg"  width="250"/>
+
 ### 📚Ejercicio 2
 ## 8. Conclusiones
 ## 9. Bibliografia 
