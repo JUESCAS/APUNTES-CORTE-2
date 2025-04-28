@@ -4,6 +4,18 @@ En dinámica de sistemas, el análisis de circuitos con amplificadores operacion
 ### Amplificador no inversor 
 Un amplificador operacional no inversor es una configuración de un amplificador operacional (op-amp) donde la señal de entrada se aplica al terminal no inversor del op-amp (marcado como +), y el terminal inversor (marcado como−) se conecta a través de una red de resistencias que establece la ganancia del circuito.
 
+💡**Ejemplo 1:** sistema masa amortiguador
+
+<img src="images/F7.jpg"  width="300"/>
+
+💡**Ejemplo 2:** sistema masa amortiguador
+
+<img src="images/F7.jpg"  width="300"/>
+
+💡**Ejemplo 3:** sistema masa amortiguador
+
+<img src="images/F7.jpg"  width="300"/>
+
 ## Analisis de sistemas hidráulicos
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
 
