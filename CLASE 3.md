@@ -19,7 +19,7 @@ Un capacitor (o condensador) es un dispositivo eléctrico pasivo que almacena en
 
 $$\ i(t) = C \frac{dv(t)}{dt}\ $$
 
-<img src="images/F3.jpg"  width="300"/>
+<img src="images/CAP.jpg"  width="300"/>
 
 #### 1.1.3 Inductor 
 Un inductor es un componente eléctrico pasivo que almacena energía en un campo magnético cuando pasa corriente a través de él. Está formado típicamente por un alambre enrollado en espiral, y su principal propiedad es la inductancia, que se mide en henrios (H). La inductancia es la capacidad de un inductor para resistir cambios en la corriente eléctrica que lo atraviesa.En la dinámica de sistemas, un inductor puede representarse como un componente dentro de un sistema dinámico donde su comportamiento está gobernado por ecuaciones diferenciales. La dinámica de un sistema que involucra un inductor está relacionada con el almacenamiento de energía en un campo magnético y cómo la corriente cambia con el tiempo que se expresa de la siguiente manera.
@@ -118,5 +118,5 @@ Al analizar el comportamiento dinámico de los sistemas electricos, es posible e
 
 [ChatGPT] (https://openai.com/chatgpt)
 
-[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html) 
+[chegg] (https://www.chegg.com/homework-help/questions-and-answers/619-circuit-shown-figure-p66-find-set-state-variable-equations-algebraic-output-equation-e-q10781615) 
 
