@@ -106,6 +106,16 @@ $$ u + b(\dot{y}_2 - \dot{y}_1) + F_w - K_2(y_2 - y_1) = m_2 \ddot{y}_2$$
 
 <img src="images/EJJ3.jpg"  width="120"/>
 
+$$ F_B + F_{kh} + F_{ks} = m_h a_h $$
+
+$$ m_h y ̈_h+b_h y ̇_h+y_h (K_ave+K_s+K_h )-b_h y ̇_f-y_f (K_s+K_h )=0$$
+
+$$F_kh+F_bf-F_bh-F_up=m_f a_f$$
+
+$$m_f y ̈_f+b_f y ̇_f-y_h (K_s+K_h )+〖(b〗_h 〖+b〗_f)y ̇_f+y_f (K_s+K_h )=f_up  $$
+
+<img src="images/imagen.png"  width="360"/>
+
 ## 8. Conclusiones
 
 Modelar sistemas masa-resorte-amortiguador permite describe el comportamiento de masas de acuerdo. Además tener un modelo en función de una salida permitirá analizar y graficar el cambio de posición de cada masa según se varía el valor de entrada. Los modelos dinámicos son fundamental para analizar vibraciones mecánicas, diseñar sistemas de control, estudiar estabilidad y entender la transmisión de fuerzas en los sistemas mecánicas.
