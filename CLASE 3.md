@@ -119,9 +119,9 @@ Figura 11
 
 <img src="images/MOD1.jpg"  width="300"/>
 
-<img src="images/MOD2.jpg"  width="300"/>
+<img src="images/MOD2.jpg"  width="450"/>
 
-<img src="images/MOD3.jpg"  width="300"/>
+<img src="images/MOD3.jpg"  width="350"/>
 
 ## 4 Ejercicios 
 ### 📚Ejercicio 1
