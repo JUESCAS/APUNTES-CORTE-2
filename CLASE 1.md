@@ -1,8 +1,15 @@
 # Sistemas mecanicos 
 Un sistema mecánico es un conjunto de componentes interrelacionados que interactúan entre sí para realizar un trabajo físico, a través de la conversión de energía mecánica. Para este caso se abordaron dos sistemas elementales cuyos elementos principales son el resorte y el amortiguador. El análisis de estos sistemas se llevan de acuerdo a las ecuaciones que los describen, es decir la ley de Hooke y la  fricción viscosa , una vez determinada la interpretación, cualquier sistema propuesto se soluciona  inicialmente empleando un diagrama de cuerpo libre donde se describen como interactúan las fuerzas según la convención seleccionada, una vez realizado este proceso se plantea un análisis escrito donde de acuerdo al diagrama de cuerpo libre, se describe a través de una ecuación diferencial  las fuerzas que intervienen en el sistema. Para finalizar el análisis se plantea la solución mediante la transformada de Laplace donde al graficar su solución es posible visualizar el comportamiento de las masas del sistema al aplicar una fuerza.
-## 1. Principio general de modelamiento  
+## 1. Principio general de modelamiento
+El principio general del modelamiento en dinámica de sistemas consiste en representar el comportamiento dinámico de un sistema físico mediante ecuaciones matemáticas, aplicando leyes fundamentales de la física. Su objetivo es predecir y entender cómo responde el sistema ante diversas entradas o condiciones, para todos los sistemas en general describe que la energia de entrada es distribuida a lo largo del sistema, lo que describe lo sigueiente.
+
+$$\text{Tasa de acumulación} \, \frac{\text{Masa}}{\text{Energía}} = \text{Flujo de} \, \frac{\text{Masa}}{\text{Energía}} \, \text{Entrada} - \text{Flujo de} \, \frac{\text{Masa}}{\text{Energía}} \, \text{Salida}$$
+
 ## 2. Diagrama de cuerpo libre 
 >🔑 Un diagrama de cuerpo libre (DCL) es una representación gráfica utilizada en la física e ingeniería para mostrar todas las fuerzas y momentos que actúan sobre un objeto o cuerpo, de manera aislada de su entorno. Es una herramienta fundamental para analizar el equilibrio y el movimiento de un cuerpo dentro de un sistema mecánico, y se utiliza principalmente en la resolución de problemas de estática y dinámica.
+
+<img src="images/DCL.jpg"  width="300"/>
+
 ## 3. Fricción
 >🔑La fricción es una fuerza resistiva que se genera cuando dos superficies entran en contacto y tienden a deslizarse o moverse una sobre la otra. Esta fuerza actúa en dirección opuesta al movimiento relativo de las superficies involucradas y puede dificultar o frenar el movimiento. La fricción es el resultado de las interacciones microscópicas entre las irregularidades de las superficies en contacto.Existen varios tipos de fricción, dependiendo de la naturaleza de las superficies y del movimiento relativo entre ellas.
 ### 3.1 Fricción estática
@@ -13,6 +20,9 @@ Es la fricción que actúa cuando dos superficies ya están en movimiento relati
 Ocurre cuando un objeto rueda sobre una superficie en lugar de deslizarse. La fricción de rodadura es generalmente mucho menor que la fricción de deslizamiento
 ## 4. Sistema masa resorte 
 Un sistema masa-resorte es un modelo físico que describe el comportamiento de un objeto (la masa) conectado a un resorte. Este sistema es uno de los más fundamentales y estudiados en la física, especialmente en el estudio de la dinámica de sistemas oscilatorios. La interacción entre la masa y el resorte da lugar a un movimiento oscilatorio, conocido como movimiento armónico simple (MAS), bajo ciertas condiciones.
+
+<img src="images/SMR.jpg"  width="300"/>
+
 ### 4.1 Resorte
 >🔑Un resorte es un componente que almacena energía potencial cuando se deforma, es decir, cuando se estira o se comprime. Es un sistema mecánico que puede oscilar o moverse bajo la influencia de fuerzas, como la fuerza de restitución que genera el propio resorte debido a su deformación.
 ### 4.1.1 Ley de Hooke
