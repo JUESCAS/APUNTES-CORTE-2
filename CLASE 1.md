@@ -19,7 +19,7 @@ Es la fricción que actúa cuando dos superficies ya están en movimiento relati
 ### 3.3 Fricción por rodamiento 
 Ocurre cuando un objeto rueda sobre una superficie en lugar de deslizarse. La fricción de rodadura es generalmente mucho menor que la fricción de deslizamiento
 ## 4. Sistema masa resorte 
-Un sistema masa-resorte es un modelo físico que describe el comportamiento de un objeto (la masa) conectado a un resorte. Este sistema es uno de los más fundamentales y estudiados en la física, especialmente en el estudio de la dinámica de sistemas oscilatorios. La interacción entre la masa y el resorte da lugar a un movimiento oscilatorio, conocido como movimiento armónico simple (MAS), bajo ciertas condiciones.
+>🔑 Un sistema masa-resorte es un modelo físico que describe el comportamiento de un objeto (la masa) conectado a un resorte. Este sistema es uno de los más fundamentales y estudiados en la física, especialmente en el estudio de la dinámica de sistemas oscilatorios. La interacción entre la masa y el resorte da lugar a un movimiento oscilatorio, conocido como movimiento armónico simple (MAS), bajo ciertas condiciones.
 
 <img src="images/SMR.jpg"  width="300"/>
 
@@ -43,7 +43,7 @@ En este sistema, la masa (m) está unida a un resorte con constante elástica  k
 Conversión de energía: A medida que las superficies friccionan entre sí, la energía cinética del movimiento se convierte en calor, lo que reduce la velocidad del objeto en movimiento.
 Desaceleración: El calor generado por la fricción disipa la energía de manera controlada, evitando oscilaciones excesivas o movimientos bruscos. La velocidad del sistema disminuye de forma progresiva hasta que se detiene o alcanza una velocidad constante deseada.
 ### 5.1.1 Fricción viscosa
-Es una fuerza resistiva que depende de la velocidad relativa entre las superficies en contacto. En el contexto de un sistema de amortiguación, como un amortiguador de vehículo, la fricción viscosa se modela generalmente como una fuerza proporcional a la velocidad del objeto en movimiento.
+>🔑 Es una fuerza resistiva que depende de la velocidad relativa entre las superficies en contacto. En el contexto de un sistema de amortiguación, como un amortiguador de vehículo, la fricción viscosa se modela generalmente como una fuerza proporcional a la velocidad del objeto en movimiento.
 
 💡**Ejemplo 2:** sistema masa amortiguador 
 
