@@ -32,9 +32,20 @@ $$\frac{e_i}{R_1} = -\frac{e_o}{R_2} - C \frac{d(e_o)}{dt}$$
 ## Analisis de sistemas hidráulicos
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
 
+### Presión
+La presión actúa como una variable de "esfuerzo" en el contexto de la dinámica de sistemas hidráulicos. Al igual que el voltaje en sistemas eléctricos o la fuerza en sistemas mecánicos, la presión es la causa del flujo . Las diferencias de presión a lo largo del sistema son las que impulsan el movimiento del fluido, superando las resistencias y realizando trabajo en los actuadores.
+
+### Caudal
+el caudal (o flujo volumétrico) representa la variable de "flujo" fundamental, que describe la cantidad de fluido que se mueve a través de una sección transversal por unidad de tiempo. Al igual que la corriente eléctrica o la velocidad en sistemas mecánicos, el caudal es la consecuencia de la aplicación de una diferencia de potencial (en este caso, una diferencia de presión) y se ve limitado por las resistencias del sistema.
+
+### nivel de líquido 
+El nivel de líquido se refiere a la distancia vertical desde un punto de referencia inferior del tanque hasta la superficie libre del líquido. Esta variable representa la cantidad de fluido almacenado en el recipiente y está directamente relacionada con el volumen de líquido, asumiendo una geometría conocida del tanque.
+
 ### Modelo de un tanque 
 Un modelo de un tanque en sistemas hidráulicos es una representación matemática simplificada del comportamiento de un recipiente diseñado para almacenar fluidos. Este modelo se fundamenta en el principio de conservación de masa (o volumen, para fluidos incompresibles), estableciendo una relación dinámica entre los caudales de entrada y salida del tanque y la variación del nivel del líquido en su interior con respecto al tiempo.
 
+### área transversal del tanque
+se refiere a la medida de la superficie obtenida al realizar un corte imaginario perpendicular a la dirección principal de la altura del tanque. En otras palabras, es la superficie de la sección que se obtendría si se cortara el tanque horizontalmente
 
 
 $$\begin{align*}
@@ -46,6 +57,8 @@ h_1 \colon \text{Nivel de líquido en el tanque}
 
 💡**Ejemplo 4:** modelo para un tanque
 
+<img src="images/TAN1.JPG"  width="300"/>
+
 $$\begin{align*}
 q_1 = \frac{h_1}{R_1} \\
 A_1 \frac{dh_1}{dt} = q_i - q_1 \\
@@ -53,16 +66,22 @@ h_1 = q_1 \cdot R_1 \\
 R_1 A_1 \frac{dq_1}{dt} = q_i - q_1
 \end{align*}$$
 
-💡**Ejemplo 5:** modelo para dos tanques interconectados
 
 
 ### Modelo de dos tanques
 Un modelo de dos tanques no interconectados describe el comportamiento independiente de dos recipientes de almacenamiento de fluidos, donde cada tanque tiene sus propias entradas y salidas que se puede relacionar con las ecuaciones anteriores. Cada tanque se modela individualmente mediante un balance de volumen que relaciona el caudal de entrada, el caudal de salida y la variación del nivel del líquido en función del tiempo, sin considerar ningún flujo que pase de un tanque al otro. posteriormente se busca una variable que pueda relacionar las ecuaciones en funcion de construir un modelo
+
+💡**Ejemplo 5:** modelo para dos tanques 
+
+<img src="images/TAN2.JPG"  width="300"/>
+
 ### Modelos de dos tanques interconectados 
 Un modelo de dos tanques interconectados describe la dinámica de almacenamiento y transferencia de fluido entre dos recipientes, considerando los caudales de entrada al primer tanque, de salida del segundo, y el flujo que se establece entre ellos a través de una conexión. Este flujo intermedio, que depende de la diferencia de nivel y la resistencia de la interconexión. 
 
+
 💡**Ejemplo 6:** modelo para dos tanques interconectados
 
+<img src="images/TAN3.JPG"  width="300"/>
 
 $$\begin{align*}
 q_1 &= \frac{h_1 - h_2}{R_1} \\
@@ -87,3 +106,17 @@ A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{dq_2}
 \end{align*}$$
 
 
+## 7. Ejercicios
+### 📚Ejercicio 1
+
+### 📚Ejercicio 2
+
+## 8. Conclusiones
+
+El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite modelar modelar cada tanque de manera independiente segun la variable que se requiera, y despues buscar una incognita que me permita relacionar todos los sistemas en funcion de construir un modelo en general. Una vez diseñado o en operación, los modelos permiten predecir y analizar el rendimiento del sistema ante diferentes cargas, perturbaciones o cambios en los parámetros. Esto ayuda a comprender el comportamiento dinámico, identificar posibles cuellos de botella, evaluar la eficiencia y prever la respuesta ante situaciones inesperadas.
+
+## 9. Bibliografia 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
