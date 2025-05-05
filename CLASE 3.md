@@ -103,12 +103,20 @@ $$\ u(t) - 6\frac{dy(t)}{dt} - 2y(t) = 0\$$
 
 <img src="images/F12.jpg"  width="300"/>
 
-
 ## 4 Ejercicios 
 ### 📚Ejercicio 1
+
+<img src="images/C1.jpg"  width="300"/>
+
 ### 📚Ejercicio 2
+
+<img src="images/C2.jpg"  width="300"/>
+
 ## 5 Conclusiones 
 Al analizar el comportamiento dinámico de los sistemas electricos, es posible estudiar fenómenos como respuestas transitorias, estados estacionarios, resonancia y estabilidad,ademas en muchos casos sera posible predecir algunos fallos en el sistema electrico, hecho que es importante a la diseñar y controlar de manera más eficiente.
 ## 6 Bibliografía 
- 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html) 
 
