@@ -35,22 +35,34 @@ En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías d
 ### Modelo de un tanque 
 Un modelo de un tanque en sistemas hidráulicos es una representación matemática simplificada del comportamiento de un recipiente diseñado para almacenar fluidos. Este modelo se fundamenta en el principio de conservación de masa (o volumen, para fluidos incompresibles), estableciendo una relación dinámica entre los caudales de entrada y salida del tanque y la variación del nivel del líquido en su interior con respecto al tiempo.
 
+
+
 $$\begin{align*}
 q_i, q_o \colon \text{Flujos de entrada y salida de líquido} \\
 R_1 \colon \text{Resistencia al flujo} \\
 A_1 \colon \text{Área transversal del tanque} \\
 h_1 \colon \text{Nivel de líquido en el tanque}
 \end{align*}$$
+
+💡**Ejemplo 4:** modelo para un tanque
+
 $$\begin{align*}
 q_1 = \frac{h_1}{R_1} \\
 A_1 \frac{dh_1}{dt} = q_i - q_1 \\
 h_1 = q_1 \cdot R_1 \\
 R_1 A_1 \frac{dq_1}{dt} = q_i - q_1
 \end{align*}$$
+
+💡**Ejemplo 5:** modelo para dos tanques interconectados
+
+
 ### Modelo de dos tanques
 Un modelo de dos tanques no interconectados describe el comportamiento independiente de dos recipientes de almacenamiento de fluidos, donde cada tanque tiene sus propias entradas y salidas que se puede relacionar con las ecuaciones anteriores. Cada tanque se modela individualmente mediante un balance de volumen que relaciona el caudal de entrada, el caudal de salida y la variación del nivel del líquido en función del tiempo, sin considerar ningún flujo que pase de un tanque al otro. posteriormente se busca una variable que pueda relacionar las ecuaciones en funcion de construir un modelo
 ### Modelos de dos tanques interconectados 
 Un modelo de dos tanques interconectados describe la dinámica de almacenamiento y transferencia de fluido entre dos recipientes, considerando los caudales de entrada al primer tanque, de salida del segundo, y el flujo que se establece entre ellos a través de una conexión. Este flujo intermedio, que depende de la diferencia de nivel y la resistencia de la interconexión. 
+
+💡**Ejemplo 6:** modelo para dos tanques interconectados
+
 
 $$\begin{align*}
 q_1 &= \frac{h_1 - h_2}{R_1} \\
