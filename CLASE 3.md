@@ -19,7 +19,7 @@ Un capacitor (o condensador) es un dispositivo eléctrico pasivo que almacena en
 
 $$\ i(t) = C \frac{dv(t)}{dt}\ $$
 
-<img src="images/CAP.jpg"  width="300"/>
+<img src="images/CAP.jpg"  width="180"/>
 
 #### 1.1.3 Inductor 
 Un inductor es un componente eléctrico pasivo que almacena energía en un campo magnético cuando pasa corriente a través de él. Está formado típicamente por un alambre enrollado en espiral, y su principal propiedad es la inductancia, que se mide en henrios (H). La inductancia es la capacidad de un inductor para resistir cambios en la corriente eléctrica que lo atraviesa.En la dinámica de sistemas, un inductor puede representarse como un componente dentro de un sistema dinámico donde su comportamiento está gobernado por ecuaciones diferenciales. La dinámica de un sistema que involucra un inductor está relacionada con el almacenamiento de energía en un campo magnético y cómo la corriente cambia con el tiempo que se expresa de la siguiente manera.
@@ -42,7 +42,7 @@ La Ley de Kirchhoff de tensiones es una de las leyes fundamentales en la teoría
 <img src="images/F6.jpg"  width="300"/>
 
 
-💡**Ejemplo 1:** sistema masa amortiguador
+💡**Ejemplo 1:** sistema electrico
 
 <img src="images/F7.jpg"  width="300"/>
 
@@ -52,7 +52,7 @@ $$ \ i(t) = C \frac{dy(t)}{dt}\] $$
 $$ \ -u(t) + C \frac{dy(t)}{dt} \ast R + L \frac{d}{dt} \left( C \frac{dy(t)}{dt} \right) + y(t) = 0\] $$
 $$ \ -u(t) + RC \frac{dy(t)}{dt} + LC \frac{d^2 y(t)}{dt^2} + y(t) = 0\] $$
 
-💡**Ejemplo 2:** sistema masa amortiguador
+💡**Ejemplo 2:** sistema electrico 
 
 <img src="images/F8.jpg"  width="300"/>
 
@@ -60,7 +60,6 @@ $$\ -u + V_{R1} + V_{R2} + V_{C} = 0\$$
 $$\ -u + I(R_1 + R_2) + V_{C} = 0\$$
 $$\ -I = I_C = C \frac{d(V_C)}{dt}\$$
 $$\ -u + C \frac{d(V_C)}{dt} (R_1 + R_2) + V_C = 0\$$
-
 
 ## 3 Analisis por nodos
 El análisis por nodos es un método utilizado para resolver circuitos eléctricos que se basa en la Ley de Kirchhoff de Corrientes (KCL). Este enfoque es particularmente útil cuando el circuito tiene múltiples componentes conectados en paralelo y es más sencillo trabajar con los voltajes en los nodos en lugar de las corrientes en las mallas. El análisis por nodos permite calcular los voltajes en diferentes puntos del circuito con respecto a un nodo de referencia.
@@ -87,7 +86,7 @@ $$\sum I = 0\ $$
 <img src="images/F10.jpg"  width="250"/>
 
 
-💡**Ejemplo 3:** sistema masa amortiguador
+💡**Ejemplo 3:** sistema electrico
 
 
 <img src="images/F11.jpg"  width="280"/>
@@ -99,7 +98,7 @@ $$\ V_{AB} = 2\frac{dy(t)}{dt} + y(t)\$$
 $$\ u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2\frac{dy(t)}{dt} =0\$$
 $$\ u(t) - 6\frac{dy(t)}{dt} - 2y(t) = 0\$$
 
-💡**Ejemplo 4:** sistema masa amortiguador
+💡**Ejemplo 4:** sistema electrico
 
 <img src="images/F12.jpg"  width="300"/>
 
