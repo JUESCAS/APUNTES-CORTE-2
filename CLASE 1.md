@@ -114,7 +114,7 @@ $$F_kh+F_bf-F_bh-F_up=m_f a_f$$
 
 $$m_f y ̈_f+b_f y ̇_f-y_h (K_s+K_h )+〖(b〗_h 〖+b〗_f)y ̇_f+y_f (K_s+K_h )=f_up  $$
 
-<img src="images/imagen.png"  width="360"/>
+<img src="images/imagen.png"  width="450"/>
 
 ## 8. Conclusiones
 
