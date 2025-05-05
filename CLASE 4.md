@@ -114,9 +114,11 @@ A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{dq_2}
 ## 3. Ejercicios
 ### 📚Ejercicio 1
 
+<img src="images/AMEJ.JPG"  width="350"/>
+
 ### 📚Ejercicio 2
 
-<img src="images/TANEJ.JPG"  width="300"/>
+<img src="images/TANEJ.JPG"  width="350"/>
 
 ## 4. Conclusiones
 
