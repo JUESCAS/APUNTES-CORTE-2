@@ -9,6 +9,7 @@ $$\text{Tasa de acumulación} \, \frac{\text{Masa}}{\text{Energía}} = \text{Flu
 >🔑 Un diagrama de cuerpo libre (DCL) es una representación gráfica utilizada en la física e ingeniería para mostrar todas las fuerzas y momentos que actúan sobre un objeto o cuerpo, de manera aislada de su entorno. Es una herramienta fundamental para analizar el equilibrio y el movimiento de un cuerpo dentro de un sistema mecánico, y se utiliza principalmente en la resolución de problemas de estática y dinámica.
 
 <img src="images/DCL.jpg"  width="300"/>
+Figura 1. Diagrama de cuerpo libre
 
 ## 3. Fricción
 >🔑La fricción es una fuerza resistiva que se genera cuando dos superficies entran en contacto y tienden a deslizarse o moverse una sobre la otra. Esta fuerza actúa en dirección opuesta al movimiento relativo de las superficies involucradas y puede dificultar o frenar el movimiento. La fricción es el resultado de las interacciones microscópicas entre las irregularidades de las superficies en contacto.Existen varios tipos de fricción, dependiendo de la naturaleza de las superficies y del movimiento relativo entre ellas.
@@ -22,6 +23,7 @@ Ocurre cuando un objeto rueda sobre una superficie en lugar de deslizarse. La fr
 >🔑 Un sistema masa-resorte es un modelo físico que describe el comportamiento de un objeto (la masa) conectado a un resorte. Este sistema es uno de los más fundamentales y estudiados en la física, especialmente en el estudio de la dinámica de sistemas oscilatorios. La interacción entre la masa y el resorte da lugar a un movimiento oscilatorio, conocido como movimiento armónico simple (MAS), bajo ciertas condiciones.
 
 <img src="images/SMR.jpg"  width="300"/>
+Figura 2.sistema masa resorte 
 
 ### 4.1 Resorte
 >🔑Un resorte es un componente que almacena energía potencial cuando se deforma, es decir, cuando se estira o se comprime. Es un sistema mecánico que puede oscilar o moverse bajo la influencia de fuerzas, como la fuerza de restitución que genera el propio resorte debido a su deformación.
@@ -31,6 +33,8 @@ La Ley de Hooke aplicada a los resortes describe cómo la fuerza que ejerce un r
 💡**Ejemplo 1:** sistema masa resorte
 
 <img src="images/EJ1.jpg"  width="300"/>
+
+Figura 3.
 
 $$ \ F_R = K_2 \cdot y(t)\ $$
 $$ \ u - F_R - F_F = m \cdot a\ $$
@@ -48,6 +52,7 @@ Desaceleración: El calor generado por la fricción disipa la energía de manera
 💡**Ejemplo 2:** sistema masa amortiguador 
 
 <img src="images/EJ2.jpg"  width="300"/>
+Figura 4.
 
 $$\ F_F = b \cdot \dot{y}(t)\ $$
 $$\ u - F_R - F_F = m \cdot a\ $$
@@ -59,6 +64,7 @@ Un sistema masa-resorte-amortiguador es un sistema físico comúnmente utilizado
 💡**Ejemplo 3:** Planteamiento de ecuaciones para un sistema masa resorte amortigua 
 
 <img src="images/EJ3.jpg"  width="200"/>
+Figura 5.
 
 $$ \sum F = m \cdot a\$$
 $$ \ u + F_W - F_R - F_F = m \cdot a\$$
@@ -67,6 +73,7 @@ $$ \ u(t) + F_W - K_2 \cdot y(t) - K_1 \cdot \dot{y}(t) = m \cdot \ddot{y}(t)\$$
 💡**Ejemplo 4:** Planteamiento de ecuaciones para un sistema con dos masas resorte amortiguador 
 
 <img src="images/EJ4.jpg"  width="400"/>
+Figura 6.
 
  - Ecuación para la masa 1
 
@@ -81,11 +88,13 @@ $$ \ K_2 \cdot (y_1(t) - y_2(t)) - K_3 \cdot y(t) + b \cdot (\dot{y}_1(t) - \dot
 
 - Modelo
 <img src="images/mod.jpg"  width="400"/>
+Figura 7.
 
 💡**Ejemplo 5:** Solucion propuesta para un sistema masa resorte amortigua 
 
 <img src="images/EJ5.jpg"  width="300"/>
- 
+Figura 8.
+
  - Ecuación para la masa 1
 
 $$\ F_{R2} + F_W - F_B - F_{R1} = m_1 \cdot a_1\$$
@@ -102,7 +111,7 @@ $$\ u + F_W - K_2 \cdot (y_2 - y_1) = m_2 \cdot \ddot{y}(t) \$$
 ### 📚Ejercicio 1
 
 <img src="images/EJJ.jpg"  width="120"/>
-
+Figura 9.
 
 $$ F_B - F_{k1} + F_w = m_1 a_1 $$
 $$ b(\dot{y}_1 - \dot{y}_2) - K_1 y_1 + F_w = m_1 \ddot{y}_1 $$
@@ -111,10 +120,13 @@ $$ u - F_B + F_w - F_{R2} = m_2 a_2 $$
 $$ u + b(\dot{y}_2 - \dot{y}_1) + F_w - K_2(y_2 - y_1) = m_2 \ddot{y}_2$$
 
 <img src="images/EJJ2.jpg"  width="360"/>
+Figura 10.
 
 ### 📚Ejercicio 2
 
+
 <img src="images/EJJ3.jpg"  width="120"/>
+Figura 11.
 
 $$ F_B + F_{kh} + F_{ks} = m_h a_h $$
 
@@ -125,6 +137,7 @@ $$F_kh+F_bf-F_bh-F_up=m_f a_f$$
 $$m_f y ̈_f+b_f y ̇_f-y_h (K_s+K_h )+〖(b〗_h 〖+b〗_f)y ̇_f+y_f (K_s+K_h )=f_up  $$
 
 <img src="images/imagen.png"  width="450"/>
+Figura 12.
 
 ## 8. Conclusiones
 
