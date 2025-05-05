@@ -6,15 +6,15 @@ Un amplificador operacional no inversor es una configuración de un amplificador
 
 💡**Ejemplo 1:** amplificador operacional
 
-<img src="images/AO3.jpg"  width="300"/>
+<img src="images/AO3.JPG"  width="300"/>
 
 💡**Ejemplo 2:** amplificador operacional
 
-<img src="images/AO2.jpg"  width="300"/>
+<img src="images/AO2.JPG"  width="300"/>
 
 💡**Ejemplo 3:** amplificador operacional
 
-<img src="images/AO1.jpg"  width="300"/>
+<img src="images/AO1.JPG"  width="300"/>
 
 ## Analisis de sistemas hidráulicos
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
