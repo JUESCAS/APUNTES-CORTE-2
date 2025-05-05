@@ -8,9 +8,22 @@ Un amplificador operacional no inversor es una configuración de un amplificador
 
 <img src="images/AO3.JPG"  width="300"/>
 
+$$i_1 - i_2 = 0$$
+$$\frac{e_o - e_i}{R_2} - \frac{e_i}{R_1} = 0$$
+$$\frac{e_o}{R_2} = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right)$$
+$$e_o = e_i \left( 1 + \frac{R_2}{R_1} \right)$$
+
 💡**Ejemplo 2:** amplificador operacional
 
 <img src="images/AO2.JPG"  width="300"/>
+
+$$i_1 - i_2 - i_3 = 0$$
+
+$$\frac{e_i - e'}{R_1} - \frac{e' - e_o}{R_2} - C \frac{d(e' - e_o)}{dt} = 0$$
+
+$$\frac{e_i}{R_1} - \frac{-e_o}{R_2} - C \frac{d(-e_o)}{dt} = 0$$
+
+$$\frac{e_i}{R_1} = -\frac{e_o}{R_2} - C \frac{d(e_o)}{dt}$$
 
 💡**Ejemplo 3:** amplificador operacional
 
@@ -20,6 +33,9 @@ Un amplificador operacional no inversor es una configuración de un amplificador
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
 
 ### Modelo de un tanque 
+Un modelo de un tanque en sistemas hidráulicos es una representación matemática simplificada del comportamiento de un recipiente diseñado para almacenar fluidos. Este modelo se fundamenta en el principio de conservación de masa (o volumen, para fluidos incompresibles), estableciendo una relación dinámica entre los caudales de entrada y salida del tanque y la variación del nivel del líquido en su interior con respecto al tiempo.
 ### Modelo de dos tanques
 ### Modelos de dos tanques interconectados 
+Un modelo de dos tanques interconectados describe la dinámica de almacenamiento y transferencia de fluido entre dos recipientes, considerando los caudales de entrada al primer tanque, de salida del segundo, y el flujo que se establece entre ellos a través de una conexión. Este flujo intermedio, que depende de la diferencia de nivel y la resistencia de la interconexión (ya sea una tubería, un orificio u otro elemento), influye directamente en la velocidad de cambio del nivel en ambos tanques.
+
 ### Caudal volumétrico 
