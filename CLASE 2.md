@@ -144,8 +144,28 @@ $$U = U_{k1} + U_{k2} = \frac{1}{2} k_1 y_1^2 + \frac{1}{2} k_2 y_2^2$$
 
 ### 📚Ejercicio 2
 
-<img src="images/EJJJ.jpg"  width="120"/>
+<img src="images/EJJJ.JPG"  width="300"/>
 Figura 11.
+
+$$J_1 \ddot{\theta}_1 = -k\theta_1 - T_1 + T$$
+
+$$J_2 \ddot{\theta}_2 = -b\dot{\theta}_2 - T_L + T_2$$
+
+$$r_1 \theta_1 = r_2 \theta_2$$
+
+$$T_1 \dot{\theta}_1 = T_2 \dot{\theta}_2$$
+
+$$\frac{T_1}{T_2} = \frac{\dot{\theta}_2}{\dot{\theta}_1} = \frac{r_1}{r_2}$$
+
+$$J_2 \ddot{\theta}_2 + b\dot{\theta}_2 + T_L = T_2 = T_1 \frac{r_2}{r_1}$$
+
+$$J_1 \ddot{\theta}_1 + k\theta_1 + \frac{r_2}{r_1} (J_2 \ddot{\theta}_2 + b\dot{\theta}_2 + T_L) = T$$
+
+$$\theta_2 = \frac{r_1}{r_2} \theta_1, \quad \dot{\theta}_2 = \frac{r_1}{r_2} \dot{\theta}_1, \quad \ddot{\theta}_2 = \frac{r_1}{r_2} \ddot{\theta}_1$$
+
+$$\left[ J_1 + \left(\frac{r_1}{r_2}\right)^2 J_2 \right] \ddot{\theta}_1 + b\left(\frac{r_1}{r_2}\right)^2 \dot{\theta}_1 + k\theta_1 = T - \frac{r_2}{r_1} T_L$$
+
+$$\left[ J_1 + \left(\frac{r_1}{r_2}\right)^2 J_2 \right] \ddot{\theta}_2 + b\left(\frac{r_1}{r_2}\right)^2 \dot{\theta}_2 + k\left(\frac{r_2}{r_1}\right)^2 \theta_2 = \frac{r_1}{r_2} T - T_L$$
 
 ## 6. Conclusiones
 
