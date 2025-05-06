@@ -125,6 +125,9 @@ $$T_m - Mr \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac
 ## 5. Ejercicios
 ### 📚Ejercicio 1
 
+<img src="images/EJJ3.jpg"  width="120"/>
+Figura 11.
+
 $$T_1 = \frac{2}{m_1} \dot{y}_1$$
 
 $$T_2 = \frac{2}{m_2} \dot{y}_2$$
@@ -139,10 +142,11 @@ $$U = U_{k1} + U_{k2} = \frac{1}{2} k_1 y_1^2 + \frac{1}{2} k_2 y_2^2$$
 
 
 
-
-
-
 ### 📚Ejercicio 2
+
+<img src="images/EJJJ.jpg"  width="120"/>
+Figura 11.
+
 ## 6. Conclusiones
 
 El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite modelar modelar cada tanque de manera independiente segun la variable que se requiera, y despues buscar una incognita que me permita relacionar todos los sistemas en funcion de construir un modelo en general. Una vez diseñado o en operación, los modelos permiten predecir y analizar el rendimiento del sistema ante diferentes cargas, perturbaciones o cambios en los parámetros. Esto ayuda a comprender el comportamiento dinámico, identificar posibles cuellos de botella, evaluar la eficiencia y prever la respuesta ante situaciones inesperadas.
