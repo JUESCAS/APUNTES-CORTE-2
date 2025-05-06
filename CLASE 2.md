@@ -86,7 +86,7 @@ U= mgx_0 + \frac{1}{2} k \delta^2 - (mg - k \delta)x + \frac{1}{2} kx^2
 $$U = U_0 + \frac{1}{2} kx^2$$
 
 
-💡**Ejemplo 5:** sistema rotacionales 
+💡**Ejemplo 4:** sistema rotacionales 
 
 <img src="images/EJ24.jpg"  width="300"/>
 
@@ -109,12 +109,8 @@ Una palanca es un elemento mecánico rígido que gira alrededor de un punto de a
 ### 4.3 Bandas
 un sistema de bandas o correas es un mecanismo utilizado para transmitir movimiento y potencia rotacional entre dos o más ejes mediante una banda flexible (generalmente de goma, cuero o material sintético) que envuelve poleas. Estos sistemas permiten modificar la velocidad angular y el torque, y son fundamentales en la conexión entre componentes rotacionales cuando no se desea contacto directo como en engranajes.
 
-💡**Ejemplo 6:** combinacion de sistemas 
 
-<img src="images/EJ25.jpg"  width="300"/>
-
-
-💡**Ejemplo 4:** combinacion de sistemas
+💡**Ejemplo 5:** combinacion de sistemas
 
 <img src="images/EJ26.jpg"  width="300"/>
 
@@ -125,3 +121,6 @@ $$\theta = \frac{y}{r}$$
 $$T_m - Mr^2 \frac{d^2(y/r)}{dt^2} - B_m \frac{d(y/r)}{dt} = J_m \frac{d^2(y/r)}{dt^2}$$
 $$T_m - \frac{Mr^2}{r} \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2y}{dt^2}$$
 $$T_m - Mr \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2y}{dt^2}$$
+
+
+
