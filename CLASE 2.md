@@ -72,19 +72,34 @@ La conservación de la energía en dinámica de sistemas es el principio que est
 ### 3.2 Sistema conservativo 
 un sistema conservativo es aquel en el que la energía mecánica total se conserva a lo largo del tiempo, es decir, no se pierde ni se disipa. La energía se transforma únicamente entre sus distintas formas (cinética y potencial), sin que intervengan fuerzas disipativas como el rozamiento, la fricción o los amortiguadores.
 
-💡**Ejemplo 3:** sistema rotacionales 
+💡**Ejemplo 3:** sistema masa resorte
 
 <img src="images/EJ22.jpg"  width="300"/>
 
-
-💡**Ejemplo 4:** sistema rotacionales 
-
-<img src="images/EJ23.jpg"  width="130"/>
+$$U_0 = mgx_0 + \frac{1}{2} k \delta^2$$
+$$\begin{align*}
+U = mg(x_0 - x) + \frac{1}{2} k (\delta + x)^2 \\
+U= mgx_0 - mgx + \frac{1}{2} k (\delta^2 + 2\delta x + x^2) \\
+U= mgx_0 - mgx + \frac{1}{2} k \delta^2 + k \delta x + \frac{1}{2} kx^2 \\
+U= mgx_0 + \frac{1}{2} k \delta^2 - (mg - k \delta)x + \frac{1}{2} kx^2
+\end{align*}$$
+$$U = U_0 + \frac{1}{2} kx^2$$
 
 
 💡**Ejemplo 5:** sistema rotacionales 
 
 <img src="images/EJ24.jpg"  width="300"/>
+
+$$J = \frac{1}{2} mR^2$$
+$$x = R\theta$$
+$$T + U = \frac{1}{2} m\dot{x}^2 + \frac{1}{2} J\dot{\theta}^2 + \frac{1}{2} kx^2 $$
+$$T + U = \frac{1}{2} m\dot{x}^2 + \frac{1}{2} J\dot{\theta}^2 + \frac{1}{2} kx^2 $$
+$$T + U = \frac{1}{2} m\dot{x}^2 + \frac{1}{2} J\dot{\theta}^2 + \frac{1}{2} kx^2 $$
+$$\frac{3}{4} m\dot{x}^2 + \frac{1}{2} kx^2 $$
+$$\frac{3}{2} m\dot{x}\ddot{x} + kx\dot{x} = 0$$
+$$(m\ddot{x} + \frac{2}{3} kx)\dot{x} = 0$$
+$$m\ddot{x} + \frac{2}{3} kx = 0$$
+
 
 ## 4 Conversión movimiento traslacional rotacional 
 ### 4.1 Trenes de engranajes 
@@ -94,11 +109,19 @@ Una palanca es un elemento mecánico rígido que gira alrededor de un punto de a
 ### 4.3 Bandas
 un sistema de bandas o correas es un mecanismo utilizado para transmitir movimiento y potencia rotacional entre dos o más ejes mediante una banda flexible (generalmente de goma, cuero o material sintético) que envuelve poleas. Estos sistemas permiten modificar la velocidad angular y el torque, y son fundamentales en la conexión entre componentes rotacionales cuando no se desea contacto directo como en engranajes.
 
-💡**Ejemplo 3:** sistema rotacionales 
+💡**Ejemplo 6:** combinacion de sistemas 
 
 <img src="images/EJ25.jpg"  width="300"/>
 
 
-💡**Ejemplo 4:** sistema rotacionales 
+💡**Ejemplo 4:** combinacion de sistemas
 
 <img src="images/EJ26.jpg"  width="300"/>
+
+$$T_m - T_1 - B_m \frac{d\theta}{dt} = J_m \frac{d^2\theta}{dt^2}$$
+$$T_1 = Mr^2 \frac{d^2\theta}{dt^2}$$
+$$T_m - Mr^2 \frac{d^2\theta}{dt^2} - B_m \frac{d\theta}{dt} = J_m \frac{d^2\theta}{dt^2}$$
+$$\theta = \frac{y}{r}$$
+$$T_m - Mr^2 \frac{d^2(y/r)}{dt^2} - B_m \frac{d(y/r)}{dt} = J_m \frac{d^2(y/r)}{dt^2}$$
+$$T_m - \frac{Mr^2}{r} \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2y}{dt^2}$$
+$$T_m - Mr \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2y}{dt^2}$$
