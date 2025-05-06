@@ -116,6 +116,18 @@ A_1 R_1 R_2 A_2 \frac{d^2 q_2}{dt^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{dq_2}
 
 <img src="images/AMEJ.JPG"  width="350"/>
 
+$$i_1 = C_1 \frac{d}{dt}(V_x - V_n) = C_1 \frac{dV_x}{dt}$$
+$$\frac{V_e - V_x}{R_1} = C_1 \frac{dV_x}{dt}$$
+$$i_2 = -\frac{V_a}{R_2}$$
+$$V_a = -R_2 C_1 \frac{dV_x}{dt}$$
+$$i_3 = C_2 \frac{dV_a}{dt}$$
+$$i_4 = \frac{V_y - V_s}{R_4}$$
+$$s = -R_4 C_2 \frac{dV_a}{dt} - R_4^2 C_2 C_3 \frac{d^2 V_a}{dt^2}$$
+$$\frac{d^2 V_a}{dt^2} = -R_1 C_1 \frac{dV_a}{dt} - \frac{R_1}{R_2} \frac{d^2 V_e}{dt^2}$$
+$$V_s = -R_4 C_2 \left( -R_1 C_1 \frac{dV_a}{dt} - \frac{R_1}{R_2} \frac{dV_e}{dt} \right) - R_4^2 C_2 C_3 \left( -R_1 C_1 \frac{dV_a}{dt} - \frac{R_1}{R_2} \frac{d^2 V_e}{dt^2} \right)$$
+$$R_1 R_4 C_1 C_3 \frac{d^2 V_s}{dt^2} + (R_1 C_1 + R_4 C_3) \frac{dV_s}{dt} + V_s = R_2 R_4 C_1 C_2 \frac{d^2 V_e}{dt^2}$$
+
+
 ### 📚Ejercicio 2
 
 <img src="images/TANEJ.JPG"  width="350"/>
