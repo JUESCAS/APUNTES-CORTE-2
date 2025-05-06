@@ -124,6 +124,24 @@ $$T_m - Mr \frac{d^2y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac
 
 ## 5. Ejercicios
 ### 📚Ejercicio 1
+
+$$T_1 = \frac{2}{m_1} \dot{y}_1$$
+
+$$T_2 = \frac{2}{m_2} \dot{y}_2$$
+
+$$U_{k1} = \frac{1}{2} k_1 y_1^2$$
+
+$$U_{k2} = \frac{1}{2} k_2 y_2^2$$
+
+$$E = T_1 + T_2 + U_{k1} + U_{k2}$$
+
+$$U = U_{k1} + U_{k2} = \frac{1}{2} k_1 y_1^2 + \frac{1}{2} k_2 y_2^2$$
+
+
+
+
+
+
 ### 📚Ejercicio 2
 ## 6. Conclusiones
 
