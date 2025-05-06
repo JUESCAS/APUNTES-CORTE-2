@@ -78,7 +78,7 @@ Un modelo de dos tanques no interconectados describe el comportamiento independi
 
 💡**Ejemplo 5:** modelo para dos tanques 
 
-<img src="images/TAN2.JPG"  width="300"/>
+ <img src="images/TAN2.JPG"  width="300"/>
 
 ### 2.7 Modelos de dos tanques interconectados 
 Un modelo de dos tanques interconectados describe la dinámica de almacenamiento y transferencia de fluido entre dos recipientes, considerando los caudales de entrada al primer tanque, de salida del segundo, y el flujo que se establece entre ellos a través de una conexión. Este flujo intermedio, que depende de la diferencia de nivel y la resistencia de la interconexión. 
@@ -132,6 +132,14 @@ $$R_1 R_4 C_1 C_3 \frac{d^2 V_s}{dt^2} + (R_1 C_1 + R_4 C_3) \frac{dV_s}{dt} + V
 
 <img src="images/TANEJ.JPG"  width="350"/>
 
+$$C_1 dh_1 = q_1 dt$$
+$$q_1 = \frac{h_2 - h_1}{R_1}$$
+$$R_1 C_1 \frac{dh_1}{dt} + h_1 = h_2 \quad (4-32)$$
+$$C_2 dh_2 = (q - q_1 - q_2) dt$$
+$$q_1 = \frac{h_2 - h_1}{R_1}, \quad q_2 = \frac{h_2}{R_2}$$
+$$R_2 C_2 \frac{dh_2}{dt} + \frac{R_2}{R_1} h_2 + h_2 = R_2 q + \frac{R_2}{R_1} h_1 \quad (4-33)$$
+$$R_1 C_1 R_2 C_2 \frac{d^2 h_2}{dt^2} + (R_1 C_1 + R_2 C_2 + R_2 C_1) \frac{dh_2}{dt} + h_2 = R_1 R_2 C_1 \frac{dq}{dt} + R_2 q$$
+
 ## 4. Conclusiones
 
 El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite modelar modelar cada tanque de manera independiente segun la variable que se requiera, y despues buscar una incognita que me permita relacionar todos los sistemas en funcion de construir un modelo en general. Una vez diseñado o en operación, los modelos permiten predecir y analizar el rendimiento del sistema ante diferentes cargas, perturbaciones o cambios en los parámetros. Esto ayuda a comprender el comportamiento dinámico, identificar posibles cuellos de botella, evaluar la eficiencia y prever la respuesta ante situaciones inesperadas.
@@ -139,5 +147,8 @@ El modelo de sistemas hidraulicos es uno de los mas versatiles ya que permite mo
 ## 5. Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
+
+[Katsuhiko Ogata] (dinamica de sistemas.PHH prentice Hall)
+
 
 [Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_mecanicos.html)
