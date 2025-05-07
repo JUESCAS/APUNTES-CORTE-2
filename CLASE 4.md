@@ -87,6 +87,34 @@ Un modelo de dos tanques no interconectados describe el comportamiento independi
 
  <img src="images/TAN2.JPG"  width="300"/>
 
+$$ \begin{align}
+q_1 &= \frac{h_1 - h_2}{R_1} \\
+q_2 &= \frac{h_2}{R_2}
+\end{align} $$
+
+$$  \textbf{Tanque 1:}
+\begin{align}
+A_1 \frac{dh_1}{dt} &= q_i - q_1 \\
+A_1 \frac{dh_1}{dt} &= q_i - \frac{h_1 - h_2}{R_1}
+\end{align} $$
+
+$$ \textbf{Tanque 2:}
+\begin{align}
+A_2 \frac{dh_2}{dt} &= q_1 - q_2 \\
+A_2 \frac{dh_2}{dt} &= \frac{h_1 - h_2}{R_1} - \frac{h_2}{R_2}
+\end{align} $$
+
+$$ \begin{align}
+\frac{h_1}{R_1} &= A_2 \frac{dh_2}{dt} + \frac{h_2}{R_1} - q_d + \frac{h_2}{R_2} \\
+h_1 &= R_1 A_2 \frac{dh_2}{dt} + h_2 - R_1 q_d + \frac{R_1 h_2}{R_2} \\
+\frac{dh_1}{dt} &= R_1 A_2 \frac{d^2 h_2}{dt^2} + \left(1 + \frac{R_1}{R_2} \right) \frac{dh_2}{dt} - R_1 \frac{dq_d}{dt}
+\end{align} $$
+
+$$ \begin{align}
+A_1 \left( R_1 A_2 \frac{d^2 h_2}{dt^2} + \left(1 + \frac{R_1}{R_2} \right) \frac{dh_2}{dt} - R_1 \frac{dq_d}{dt} \right) = q_2 - \frac{(R_1 A_2 \frac{dh_2}{dt} + h_2 - R_1 q_d + \frac{R_1 h_2}{R_2}) - h_2}{R_1}
+\end{align} $$
+
+
 ### 2.7 Modelos de dos tanques interconectados 
 Un modelo de dos tanques interconectados describe la dinámica de almacenamiento y transferencia de fluido entre dos recipientes, considerando los caudales de entrada al primer tanque, de salida del segundo, y el flujo que se establece entre ellos a través de una conexión. Este flujo intermedio, que depende de la diferencia de nivel y la resistencia de la interconexión. 
 
