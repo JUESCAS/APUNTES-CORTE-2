@@ -32,6 +32,13 @@ $$\frac{e_i}{R_1} = -\frac{e_o}{R_2} - C \frac{d(e_o)}{dt}$$
 
 <img src="images/AO1.JPG"  width="300"/>
 
+$$ \begin{align}
+i_1 + i_2 - i_3 - i_4 = 0 \\
+C_1 \frac{d(e_i - e_n)}{dt} + \frac{e_i - e_n}{R_1} - C_2 \frac{d(e_n - e_s)}{dt} - \frac{e_n - e_s}{R_2} = 0 \\
+C_1 \frac{d e_i}{dt} + \frac{e_i}{R_1} - C_2 \frac{d e_s}{dt} - \frac{e_s}{R_2} = 0
+\end{align}$$
+
+
 ## 2 Analisis de sistemas hidráulicos
 En dinámica de sistemas, los sistemas hidráulicos se modelan como analogías de otros tipos de sistemas físicos, como los eléctricos o los mecánicos, para entender cómo se comportan dinámicamente bajo diversas condiciones. Un sistema hidráulico es aquel en el que el movimiento o almacenamiento de un fluido (generalmente un líquido) se utiliza para transmitir, almacenar o controlar energía. En dinámica de sistemas, se estudia cómo variables como la presión, el caudal y el volumen cambian con el tiempo, basándose en principios de conservación de masa, energía y leyes físicas análogas.
 
